@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  background: url(../img/bg.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  font-size: 1.6rem;
+  font-family: Roboto;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 4.6rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu {
+  margin-left: 3.4rem;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+}
+
+.menu li + li {
+  margin-left: 2.5rem;
+}
+
+.title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 14.1rem;
+}
+
+.text {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+  width: 67.4rem;
+  margin-top: 1.5rem;
+}
+
+.slider {
+  margin-top: 24rem;
+}
+
+.slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4.6rem;
+}
+
+.slick-dots button {
+    font-size: 0rem;
+    border: none;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.slick-dots li + li {
+    margin-left: 2rem;
+}
+
